@@ -1,6 +1,6 @@
 services:
 - type: web
-  name: next-js
+  name: ChatGPT-Next-Web-LangChain
   env: node
   plan: starter
   buildCommand: yarn; yarn build
