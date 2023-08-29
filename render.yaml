@@ -3,7 +3,7 @@ services:
  - type: web
    name: ChatGPT-Next-Web-LangChain
    env: static
-   buildCommand: yarn; yarn build; yarn next export
+   buildCommand: yarn; yarn build; yarn next 
    staticPublishPath: out
    pullRequestPreviewsEnabled: true     # optional
    envVars:
