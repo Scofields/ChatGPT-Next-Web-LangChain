@@ -1,5 +1,8 @@
 {
   "name": "chatgpt-next-web",
+  "engines": {
+    "node": ">=16.15"
+  },
   "private": false,
   "license": "mit",
   "scripts": {
