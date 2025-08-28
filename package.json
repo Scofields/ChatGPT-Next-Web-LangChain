@@ -2,6 +2,11 @@
   "name": "nextchat",
   "private": false,
   "license": "mit",
+  {
+  "engines": {
+    "node": "20.18.0"
+  }
+},
   "scripts": {
     "mask": "npx tsx app/masks/build.ts",
     "mask:watch": "npx watch 'yarn mask' app/masks",
